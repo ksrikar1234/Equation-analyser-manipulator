@@ -9,15 +9,15 @@ using namespace std;
 
 class std_equation{
 	public:
-	vector<float>  vars;                                  // takes input of values of each variable during solving 
-	vector<string> var_names;                             // variable names are stored 
-	int max_variables = 0;                                // maximum number of variables
-	string equation_format;	                              // stores the string which contains meta data of equation 
-    void meta_equation(string equation);                  // takes input of the meta equation string
-   	void getset_var();                                    // variable names and values are mapped
-	void set_algrbraic_relation();                        // relationship is stored
-    void generate();                                      // equation is generated
-    float solve(vector<pair<string ,float>> passedvalues);// equation is solved	
+	vector<float>  vars;                                      // takes input of values of each variable during solving 
+	vector<string> var_names;                                 // variable names are stored 
+	int max_variables = 0;                                    // maximum number of variables
+	string equation_format;	                                  // stores the string which contains meta data of equation 
+        void meta_equation(string equation);                      // takes input of the meta equation string
+   	void getset_var();                                        // variable names and values are mapped
+	void set_algrbraic_relation();                            // relationship is stored
+        void generate();                                          // equation is generated
+        float solve(vector<pair<string ,float>> passedvalues);    // equation is solved	
 };
 
 //----------------------------------------------------------------------------------------++
