@@ -28,8 +28,8 @@ std_equation :: void meta_equation(string equation)
 	}	
 
 std_equation :: void getset_var(int max = 0)
-   
-    {     string token[4] = { {"max_var"}, {"="} , {":" }, {"var_names"} {","} };
+ {     
+	string token[4] = { {"max_var"}, {"="} , {":" }, {"var_names"} {","} };
 	      size_t  head[4];
         if((this->equation_format).find(token[0] != string::npos)
            {
@@ -40,30 +40,23 @@ std_equation :: void getset_var(int max = 0)
 	
 		       if((this->equation_format).find(token[2] != string::npos))
 		          {
-                    head[1] = (this->equation_format).find(token[2]);
+                            head[1] = (this->equation_format).find(token[2]);
 		            size_t temp_head1 = (this->equation_format).find("[" , head[0] ,head [1]);
 		            size_t temp_head2 = (this->equation_format).find("]" , head[0] ,head [1]);
 		            string maxval = "";
-					for(size_t i = temp_head1+1) ; i < temphead2 ; ++i)
-						{
-					       string maxval += this->equation_format[i] 		
-							
-					    }     
-		            this->max_variables = stoi(maxval); 
-		       
-			      }
+			    for(size_t i = temp_head1+1) ; i < temphead2 ; ++i)
+			       {
+				    string maxval += this->equation_format[i]; 
+			       }     
+		                   this->max_variables = stoi(maxval); 
+			  }
 		         
-		       }
+	      }
               
-			}
-          
-	}
+          }
+}
 		      
     
-//-------------------------------------------
- //for(int i = 0 ; i < head[1]; i ++)
-//		                {
-//-------------------------------	
 
 std_equation :: void set_algrbraic_relation()
     
@@ -100,6 +93,7 @@ int main()
 	 
 	cout << newton_law3.solve( {  {"force" , 23} , {"mass" , 50}  } ); 
 	
+	cout << newtom_law3.solve( {  {"mass"   , 56} , { "acceleration" ,25.5 }  } );
 	return 0;
 	
 }
