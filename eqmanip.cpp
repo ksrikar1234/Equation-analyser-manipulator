@@ -15,7 +15,7 @@ class std_equation{
 	string equation_format;	                                  // stores the string which contains meta data of equation 
         void meta_equation(string equation);                      // takes input of the meta equation string
    	void getset_var();                                        // variable names and values are mapped
-	void set_algrbraic_relation();                            // relationship is stored
+	void set_algebraic_relation();                            // relationship is stored
         void generate();                                          // equation is generated
         float solve(vector<pair<string ,float>> passedvalues);    // equation is solved	
 };
