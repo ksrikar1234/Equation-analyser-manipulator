@@ -58,7 +58,7 @@ std_equation :: void getset_var(int max = 0)
 		      
     
 
-std_equation :: void set_algrbraic_relation()
+std_equation :: void set_algebraic_relation()
     
 	{
  	
