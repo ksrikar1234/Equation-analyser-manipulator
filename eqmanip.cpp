@@ -31,14 +31,14 @@ std_equation :: void getset_var(int max = 0)
  {     
 	string token[4] = { {"max_var"}, {"="} , {":" }, {"var_names"} {","} };
 	      size_t  head[4];
-        if((this->equation_format).find(token[0] != string::npos)
+        if((this->equation_format).find(token[0]) != string::npos)
            {
 			if((this->equation_format).find(token[1] != string::npos)
               {
 		  
 		       head[0] = (this->equation_format).find(token[1];
 	
-		       if((this->equation_format).find(token[2] != string::npos))
+		       if((this->equation_format).find(token[2]) != string::npos))
 		          {
                             head[1] = (this->equation_format).find(token[2]);
 		            size_t temp_head1 = (this->equation_format).find("[" , head[0] ,head [1]);
