@@ -12,7 +12,7 @@ class math_parser{
         Implementation details:
         Token handling is done by using a map which takes token string as input and outputs a vector of heads
         which represent the locations of tokens || For example  | token["cos"][2] will give the the location of 
-		3rd reccurence of "cos" token 
+	(2+1=3)rd reccurence of "cos" token 
 */
  vector<unsigned short> v = {0};              // Dummy vector for filling the map
  map <string , vector<unsigned short>> token; // token["string"] is a vector of [reccurence points]
