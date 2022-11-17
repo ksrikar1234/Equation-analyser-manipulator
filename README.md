@@ -1,7 +1,7 @@
 # Equation-analyser-manipulator
 A library to solve  equations in physics , mechanical engineering and analyze real world problems
 
-ABSTRACT : This project is a library of tools that analyse , solve , program the equations , problems respectively.
+ABSTRACT : This project is a library of tools that analyse , solve , program the equations , problems symbolically.
 
 AIM      : To devolop tools necessary for solving generic and domain specific problems in Advanced mechanics and thermodynamics.
 The project will be devoloped in this sequence
