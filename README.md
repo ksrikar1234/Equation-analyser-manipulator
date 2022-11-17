@@ -10,5 +10,5 @@ The project will be devoloped in this sequence
 3. Kinematics of bodies and machinery.
 4. Rigid body dynamics of machinery.
 5. Thermodynamic equations library.
-6. Solid state physics.
-This project will include ideas and code from already existing libs like Bulletphysics etc...
+
+
